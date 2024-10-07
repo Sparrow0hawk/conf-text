@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.entry {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#block-title {
+    background: #111;
+    color: white;
+}
+
+#block-title > h1 {
+    font-size: 3rem;
+    font-family: "Helvetica", sans-serif;
+}
+
+#starfield {
+    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+    color: white;
+}
+
+#starfield > h1 {
+    font-size: 3rem;
+    font-family: "Helvetica", sans-serif;
+}
