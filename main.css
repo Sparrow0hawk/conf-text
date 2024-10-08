@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 9rem;
+}
+
 .entry {
     height: 400px;
     width: 100%;
@@ -9,24 +13,34 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px dotted white;
 }
 
-#block-title {
+.block-title {
     background: #111;
     color: white;
-}
-
-#block-title > h1 {
-    font-size: 3rem;
     font-family: "Helvetica", sans-serif;
 }
 
-#starfield {
-    background: radial-gradient(circle at 100%, #333, #333 50%, #eee 75%, #333 75%);
+.starfield {
+    background: radial-gradient(circle at 100%, #333, #333 80%, #eee 95%, #333 96%);
     color: white;
+    font-family: "Helvetica", sans-serif;
 }
 
-#starfield > h1 {
+.little-x {
     font-size: 3rem;
-    font-family: "Helvetica", sans-serif;
+    position: relative;
+    top: 10px;
+}
+
+.curly-small-x {
+    background: linear-gradient(45deg, black, 80%, white);
+    color: white;
+    font-family: "Futura", sans-serif;
+}
+.curly-small-x-colour {
+    background: linear-gradient(45deg, black 0% 80%, white 80% 81%, #0060df 81% 100%);
+    color: white;
+    font-family: "Futura", sans-serif;
 }
